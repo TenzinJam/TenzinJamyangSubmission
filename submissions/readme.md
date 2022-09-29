@@ -1,7 +1,7 @@
 Onramp Spotify/Data Engineering Project For Vanguard
 
 
-This project uses Spotify data and stores that data into a persistent database. This steps are:
+This project uses Spotify data and stores that data into a persistent database. These steps are:
 
 1) Ingestion: 
 2) Tranformation:
@@ -40,6 +40,9 @@ The entire project is encapsualted in the 'submissions' folder and the project i
           - 4 base tables: artist, album , track, track_feature
           - 7 view tables: refer to "viewQueries" folder to see the list of READ queries for view tables in spotify.db
 
+![DatabaseScheme](https://user-images.githubusercontent.com/67336130/193123398-992f009f-bfd9-434d-9ac5-a04846af8df7.jpg)
+
+
 3) viewQueries(folder): contains all the queries used to create the VIEW tables
           - artist_popularity: ranks the artist based on their popularity score. Ordered By Most to Least Popular
           - artists_ranked_by_albums: ranks the artists based on the number of their albums. Ordered By Most to Least number of albums
@@ -54,6 +57,7 @@ The entire project is encapsualted in the 'submissions' folder and the project i
           a) visualizationQueries.py(file): list of READ queries to create the plots out of
           b) visualizationScript.py(file): running this script with run the queries in "visualizationQueries.py" and use matplotlib methods to plot visuals 
                                            for respective data from the queries. 
+                                           Please, uncomment the method invocation at the end to run the plotting. 
           c) visualization_plots.pdf(file): collection of 4 plots created using python's matplotlib module:
                     - Bar chart of "Artists Ranked by Their Music's Energy Feature"
                     - Scatter Plot showing the "Correlation Between Artists' Valence Feature and Their Popularity" 
