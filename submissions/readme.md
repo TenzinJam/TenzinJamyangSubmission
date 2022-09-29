@@ -32,11 +32,11 @@ The entire project is encapsualted in the 'submissions' folder and the project i
    - Ingenstion: 
      - establishing the connection to Spotify API service through spotify library and its methods
      - retrieving Spotify Data: my top 20 artists, these artists' albums, these albums' tracks and these tracks' audio features
-   -Transformation:
+   - Transformation:
      - some parts of the data transformation happens during data retrieval from Apotify as we are removing the albums that are duplicated
      - then we are transforming some values in the original api data to conform to the schema data type
      - then we introduce Pandas to create dataframes from the transformed data to rename columns to conform to the schema column name and drop tables that                   are not required in the schema 
-   -Storage: 
+   - Storage: 
      - By this point, we have data frames ready to be seeded into the database. 
      - We start by creating a database and then inserting the 4 tables into it. 
      - The "seed" method takes care of that. On top of seeding the database, this method also check for null values and drop them if found
