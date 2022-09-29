@@ -58,7 +58,7 @@ SCATTER = "scatter"
 #                       plotVisuals(data, plotType, xlabel, ylable, title, color)
 
 # plotVisuals(queries[0], BAR, "Artists", "Popularity", "Artists Popularity Ranking", "y")
-# plotVisuals(queries[1], BAR, "Artists", "Average Energy", "Artists Ranked by Their Music's Energy", "g")
+plotVisuals(queries[1], BAR, "Artists", "Average Energy", "Artists Ranked by Their Music's Energy", "g")
 # plotVisuals(queries[2], PLOT, "Album Release History", "Music's Danceability", "Fluctuation in an Artist's Music Danceability Across Albums/Years", "orange")
-plotVisuals(queries[3], SCATTER, "Music's Valence", "Artist's Popularity", "Correlation Between Valence and Popularity", "b")
+# plotVisuals(queries[3], SCATTER, "Music's Valence", "Artist's Popularity", "Correlation Between Valence and Popularity", "b")
 # plotVisuals(queries[4], SCATTER, "Music's Valence", "Artist's Popularity", "Correlation Between Valence and Popularity", "b")
