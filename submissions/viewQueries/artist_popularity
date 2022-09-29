@@ -1,0 +1,7 @@
+-- SQLite
+
+CREATE VIEW artist_popularity
+AS 
+SELECT artist_id, artist_name, popularity
+FROM artist
+ORDER BY popularity DESC
