@@ -175,7 +175,7 @@ def seed(dbName):
     artists.to_sql("artist", con=conn, if_exists="replace", index=False)
     albums.to_sql("album", con=conn, if_exists="replace", index=False)
     tracks.to_sql("track", con=conn, if_exists="replace", index=False)
-    trackFeatures.to_sql("trackFeature", con=conn, if_exists="replace", index=False)
+    trackFeatures.to_sql("track_feature", con=conn, if_exists="replace", index=False)
     conn.commit()
 
 

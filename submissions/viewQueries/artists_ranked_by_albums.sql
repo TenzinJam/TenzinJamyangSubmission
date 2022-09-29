@@ -1,7 +1,8 @@
 -- SQLite
+
 CREATE VIEW artists_ranked_by_albums
 AS
-SELECT ar.artist_id, ar.artist_name, COUNT(*)
+SELECT ar.artist_id, ar.artist_name, COUNT(*) album_count
 FROM artist ar
 JOIN album al 
 ON ar.artist_id = al.artist_id

@@ -10,7 +10,7 @@ queries = [
         ON ar.artist_id = al.artist_id
         JOIN track t
         ON t.album_id = al.album_id
-        JOIN trackFeature tr
+        JOIN track_feature tr
         ON t.track_id = tr.track_id
         GROUP BY 1
         ORDER BY 2 DESC
@@ -23,7 +23,7 @@ queries = [
                 ON ar.artist_id = al.artist_id
                 JOIN track t
                 ON al.album_id = t.album_id
-                JOIN trackFeature tr
+                JOIN track_feature tr
                 ON t.track_id = tr.track_id
                 WHERE ar.artist_name = 'Drake')
         GROUP BY 1
@@ -37,7 +37,7 @@ queries = [
                 ON ar.artist_id = al.artist_id
                 JOIN track t
                 ON al.album_id = t.album_id
-                JOIN trackFeature tr
+                JOIN track_feature tr
                 ON t.track_id = tr.track_id)
         GROUP BY 3
     """

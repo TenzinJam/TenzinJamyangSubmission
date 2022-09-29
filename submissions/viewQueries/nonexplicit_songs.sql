@@ -12,3 +12,4 @@ SELECT ar.artist_id, ar.artist_name, COUNT(t.explicit) non_explicit_count
      ON al.album_id = t.album_id
      WHERE t.explicit = 0
      GROUP BY 1
+     ORDER BY 3 DESC

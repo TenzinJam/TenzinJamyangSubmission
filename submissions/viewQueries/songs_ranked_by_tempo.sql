@@ -1,5 +1,5 @@
 -- SQLite
-
+-- DROP VIEW tempo_ranked_by_artists;
 
 CREATE VIEW tempo_ranked_by_artists
 AS
@@ -7,7 +7,7 @@ AS
     FROM (
         SELECT artist_id, artist_name, track_id, song_name, tempo, 
                 ROW_NUMBER() OVER (
-                PARTITION BY artist_id
+                PARTITION BY artist_name
                 ORDER BY tempo DESC
                 ) AS rn
         FROM (
@@ -17,9 +17,10 @@ AS
             ON ar.artist_id = al.artist_id
             JOIN track t
             ON t.album_id = al.album_id
-            JOIN trackFeature tr
+            JOIN track_feature tr
             ON t.track_id = tr.track_id
-            -- ORDER BY 1, 4 DESC
+            ORDER BY ar.artist_name
             )
     )
     WHERE rn <= 10;
+    

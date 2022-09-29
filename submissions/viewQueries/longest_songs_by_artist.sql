@@ -1,6 +1,6 @@
 -- SQLite
 
-DROP VIEW longest_songs_by_artist;
+-- DROP VIEW longest_songs_by_artist;
 
 CREATE VIEW longest_songs_by_artist
 AS
@@ -8,7 +8,7 @@ AS
     FROM (
         SELECT artist_id, artist_name, track_id, song_name, duration_ms, 
                 ROW_NUMBER() OVER (
-                PARTITION BY artist_id
+                PARTITION BY artist_name
                 ORDER BY duration_ms DESC
                 ) AS rn
         FROM (
@@ -18,7 +18,7 @@ AS
             ON ar.artist_id = al.artist_id
             INNER JOIN track t
             ON t.album_id = al.album_id
-            -- ORDER BY 1, 4 DESC
+            ORDER BY 2
             )
     )
     WHERE rn <= 10;
