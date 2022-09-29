@@ -29,15 +29,15 @@ This project uses Spotify data and stores that data into a persistent database a
 The entire project is encapsualted in the 'submissions' folder and the project is broked down into:
 
 1. createData.py(file): this file contains all the script that takes care of 
-          a) Ingenstion: 
+          - Ingenstion: 
                     - establishing the connection to Spotify API service through spotify library and its methods
                     - retrieving Spotify Data: my top 20 artists, these artists' albums, these albums' tracks and these tracks' audio features
-          b) Transformation:
+          -Transformation:
                     - some parts of the data transformation happens during data retrieval from Apotify as we are removing the albums that are duplicated
                     - then we are transforming some values in the original api data to conform to the schema data type
                     - then we introduce Pandas to create dataframes from the transformed data to rename columns to conform to the schema column name
                       and drop tables that are not required in the schema 
-          c) Storage: 
+          -Storage: 
                     - By this point, we have data frames ready to be seeded into the database. 
                     - We start by creating a database and then inserting the 4 tables into it. 
                     - The "seed" method takes care of that. On top of seeding the database, this method also check for null values and drop them if found
