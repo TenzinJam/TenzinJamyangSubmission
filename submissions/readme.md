@@ -19,8 +19,7 @@ This project uses Spotify data and stores that data into a persistent database. 
 </details>
 
 
-Project File Organization: 
-
+<details><summary>Project File Organization:</summary>
 
 
 <img width="331" alt="Screen Shot 2022-09-29 at 1 59 27 PM" src="https://user-images.githubusercontent.com/67336130/193118393-1da5826a-324b-40b3-afea-c2f5cfa071a5.png">
@@ -46,8 +45,6 @@ The entire project is encapsualted in the 'submissions' folder and the project i
 2) spotipy.db(file): this file contains 
           - 4 base tables: artist, album , track, track_feature
           - 7 view tables: refer to "viewQueries" folder to see the list of READ queries for view tables in spotify.db
-
-![DatabaseScheme](https://user-images.githubusercontent.com/67336130/193123398-992f009f-bfd9-434d-9ac5-a04846af8df7.jpg)
 
 
 3) viewQueries(folder): contains all the queries used to create the VIEW tables
@@ -77,6 +74,6 @@ The entire project is encapsualted in the 'submissions' folder and the project i
                     - .cache
                     - visualization/__pycache__
 
-
+</details>
 
 
