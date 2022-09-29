@@ -30,7 +30,6 @@ This project uses Spotify data and stores that data into a persistent database a
  <img width="693" alt="Screen Shot 2022-09-28 at 3 28 28 PM" src="https://user-images.githubusercontent.com/67336130/193137622-381e0603-5bd2-4233-abef-c010c15d3d15.png">
 
 - After Transformation: 
-- 
 <img width="559" alt="Screen Shot 2022-09-28 at 3 28 49 PM" src="https://user-images.githubusercontent.com/67336130/193137498-7e1d70b4-7e55-44e1-820a-d95c43b7dbe9.png">
 
 Right Before Seeding(Storage): 
