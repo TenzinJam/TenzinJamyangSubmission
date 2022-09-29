@@ -24,7 +24,7 @@ This project uses Spotify data and stores that data into a persistent database a
      - create graph plots using matplotlib so that the data makes more sense to our clientele or for better internal reviews
 
 ### Data Evolution From Ingestion To Right Before Storage: 
-*** The screenshots below show the story of artist table data of artist "Raveena".*** 
+- *** The screenshots below show the story of artist table data of artist "Raveena".*** 
 
 - After Ingestion: 
  <img width="693" alt="Screen Shot 2022-09-28 at 3 28 28 PM" src="https://user-images.githubusercontent.com/67336130/193137622-381e0603-5bd2-4233-abef-c010c15d3d15.png">
