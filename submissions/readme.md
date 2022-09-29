@@ -5,6 +5,7 @@ This project uses Spotify data and stores that data into a persistent database a
 
 1. Ingestion:  
    - The stage where we establish connection to spotify api and retrieve data from Spotify's database. 
+
 2. Tranformation:
    - This is where we take the data return from the api calls and transform it: 
       - remove duplicate data 
@@ -13,13 +14,24 @@ This project uses Spotify data and stores that data into a persistent database a
       - drop columns we don't need to seed
       - check for null values and drop columns with null values
       - finally we prepare the data ready for database seeding
-4. Storage:
+     
+3. Storage:
    - We establish the connection with our database here
    - create our database and insert our tables
-6. Visualization and Analysis: 
+4. Visualization and Analysis: 
    - At this stage, we have a reliable database with consistent tables and we need to:
      - create VIEW tables to make querying quicker for future purposes
      - create graph plots using matplotlib so that the data makes more sense to our clientele or for better internal reviews
+
+### Data Evolution From Ingestion To Right Before Storage: 
+- After Ingestion: 
+ <img width="693" alt="Screen Shot 2022-09-28 at 3 28 28 PM" src="https://user-images.githubusercontent.com/67336130/193137622-381e0603-5bd2-4233-abef-c010c15d3d15.png">
+
+After Transformation: 
+<img width="559" alt="Screen Shot 2022-09-28 at 3 28 49 PM" src="https://user-images.githubusercontent.com/67336130/193137498-7e1d70b4-7e55-44e1-820a-d95c43b7dbe9.png">
+
+Right Before Seeding(Storage): 
+<img width="1335" alt="Screen Shot 2022-09-28 at 4 22 40 PM" src="https://user-images.githubusercontent.com/67336130/193138121-3273c37e-990c-4888-b08f-24d3c8384ae7.png">
 
 - For in-depth description of the project, please refer to project repo's [main "readme" file](https://github.com/TenzinJam/TenzinJamyangSubmission/blob/main/README.md).
 
