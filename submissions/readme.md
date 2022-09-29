@@ -19,7 +19,7 @@ This project uses Spotify data and stores that data into a persistent database. 
 </details>
 
 
-<details><summary>Project File Organization:</summary>
+<details><summary> ## Project File Organization:</summary>
 
 
 <img width="331" alt="Screen Shot 2022-09-29 at 1 59 27 PM" src="https://user-images.githubusercontent.com/67336130/193118393-1da5826a-324b-40b3-afea-c2f5cfa071a5.png">
@@ -79,7 +79,7 @@ The entire project is encapsualted in the 'submissions' folder and the project i
 
 <details><summary>Entity Relationship Diagram and Data Types Legend:</summary>
           
-          ![DatabaseSchema](https://user-images.githubusercontent.com/67336130/193127507-d0ae6450-5081-4208-97bc-0014492f7b7d.jpg)
+![DatabaseSchema](https://user-images.githubusercontent.com/67336130/193127507-d0ae6450-5081-4208-97bc-0014492f7b7d.jpg)
 
 </details>
 
