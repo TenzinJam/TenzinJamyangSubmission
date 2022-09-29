@@ -4,10 +4,22 @@
 This project uses Spotify data and stores that data into a persistent database after following four important steps generally practiced in data engieering. These steps are:
 
 1. Ingestion:  
-   - 
+   - The stage where we establish connection to spotify api and retrieve data from Spotify's database. 
 2. Tranformation:
-3. Storage:
-4. Visualization and Analysis: 
+   - This is where we take the data return from the api calls and transform it: 
+      - remove duplicate data 
+      - change the data from objects or lists to primitive values such as string or integer 
+      - comform the table and column names according to schema requirements -
+      - drop columns we don't need to seed
+      - check for null values and drop columns with null values
+      - finally we prepare the data ready for database seeding
+4. Storage:
+   - We establish the connection with our database here
+   - create our database and insert our tables
+6. Visualization and Analysis: 
+   - At this stage, we have a reliable database with consistent tables and we need to:
+     - create VIEW tables to make querying quicker for future purposes
+     - create graph plots using matplotlib so that the data makes more sense to our clientele or for better internal reviews
 
 - For in-depth description of the project, please refer to project repo's [main "readme" file](https://github.com/TenzinJam/TenzinJamyangSubmission/blob/main/README.md) 
 
