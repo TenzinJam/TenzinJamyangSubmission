@@ -80,6 +80,7 @@ The entire project is encapsualted in the 'submissions' folder and the project i
 
 ## Entity Relationship Diagram and Data Types Legend:
 <details><summary> Click to Expand/Contract </summary>
+          
 ![DatabaseSchema](https://user-images.githubusercontent.com/67336130/193127507-d0ae6450-5081-4208-97bc-0014492f7b7d.jpg)
 
 </details>
