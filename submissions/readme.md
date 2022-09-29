@@ -28,7 +28,9 @@ This project uses Spotify data and stores that data into a persistent database a
 
 The entire project is encapsualted in the 'submissions' folder and the project is broked down into:
 
-1. ***createData.py(file):*** this file contains all the script that takes care of 
+1. ***createData.py(file):*** 
+   this file contains all the script that takes care of 
+   
    - Ingenstion: 
      - establishing the connection to Spotify API service through spotify library and its methods
      - retrieving Spotify Data: my top 20 artists, these artists' albums, these albums' tracks and these tracks' audio features
@@ -42,12 +44,16 @@ The entire project is encapsualted in the 'submissions' folder and the project i
      - The "seed" method takes care of that. On top of seeding the database, this method also check for null values and drop them if found
 
 
-2. ***spotipy.db(file):*** this file contains
+2. ***spotipy.db(file):*** 
+   this file contains
+   
    - 4 base tables: artist, album , track, track_feature
    - 7 view tables: refer to "viewQueries" folder to see the list of READ queries for view tables in spotify.db
 
 
-3. ***viewQueries(folder):*** contains all the queries used to create the VIEW tables
+3. ***viewQueries(folder):*** 
+   contains all the queries used to create the VIEW tables
+   
    - artist_popularity: ranks the artist based on their popularity score. Ordered By Most to Least Popular.
    - artists_ranked_by_albums: ranks the artists based on the number of their albums. Ordered By Most to Least number of albums.
    - artists_ranked_by_tracks: ranks the artists based on the number of their tracks. Ordered By Most to Least number of tracks.
@@ -57,7 +63,9 @@ The entire project is encapsualted in the 'submissions' folder and the project i
    - tempo_ranked_by_artists: top 10 songs of each artists based on their song's tempo. Ordered first by artist, then by the song's duration. 
    - most_followed: all 20 artists ranked by their number of followers. Ordered by most to least number of followers. 
 
-4. ***visualization(folder):*** contains two files:
+4. ***visualization(folder):*** 
+   contains two files:
+   
    - visualizationQueries.py(file): list of READ queries to create the plots out of.
    - visualizationScript.py(file): running this script with run the queries in "visualizationQueries.py" and use matplotlib methods to plot visuals 
                                            for respective data from the queries. 
