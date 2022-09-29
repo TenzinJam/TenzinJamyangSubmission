@@ -9,7 +9,7 @@ This project uses Spotify data and stores that data into a persistent database. 
 4) Visualization and Analysis: 
 
 
-<details><summary> Technologies used:</summary>
+## <details><summary> Technologies used:</summary>
 
 - Language: Python3
 - Third Party Modules: Pandas, Pprint, Spotipy
@@ -77,7 +77,7 @@ The entire project is encapsualted in the 'submissions' folder and the project i
 </details>
 
 
-<details><summary>Entity Relationship Diagram and Data Types Legend:</summary>
+## <details><summary>Entity Relationship Diagram and Data Types Legend:</summary>
           
 ![DatabaseSchema](https://user-images.githubusercontent.com/67336130/193127507-d0ae6450-5081-4208-97bc-0014492f7b7d.jpg)
 
