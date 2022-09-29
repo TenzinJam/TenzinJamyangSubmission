@@ -1,4 +1,4 @@
-Onramp Spotify/Data Engineering Project For Vanguard
+# Onramp Spotify/Data Engineering Project For Vanguard
 
 
 This project uses Spotify data and stores that data into a persistent database. These steps are:
@@ -34,6 +34,10 @@ The entire project is encapsualted in the 'submissions' folder and the project i
                     - then we are transforming some values in the original api data to conform to the schema data type
                     - then we introduce Pandas to create dataframes from the transformed data to rename columns to conform to the schema column name
                       and drop tables that are not required in the schema 
+          c) Storage: 
+                    - By this point, we have data frames ready to be seeded into the database. 
+                    - We start by creating a database and then inserting the 4 tables into it. 
+                    - The "seed" method takes care of that. On top of seeding the database, this method also check for null values and drop them if found
 
 
 2) spotipy.db(file): this file contains 
