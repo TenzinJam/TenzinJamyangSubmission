@@ -104,7 +104,6 @@ The entire project is encapsualted in the 'submissions' folder and the project i
      - Bar Char to show "Artists' Popularity Ranking"
      - Simple Graph Plot to show "Fluctuations in an Artist's music's Danceability Across Years/Albums". Artist = "Drake" 
      - Scatter Plot showing "Correlation Between Artist's Valence Feature and Number of Followers" 
-     - Try creating at least one Pie Chart. 
 
 5. ***.gitignore(file):*** some files we don't need pushed up for security reasons:
    - .cache
