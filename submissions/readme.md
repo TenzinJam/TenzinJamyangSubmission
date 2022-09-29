@@ -9,12 +9,14 @@ This project uses Spotify data and stores that data into a persistent database. 
 4) Visualization and Analysis: 
 
 
-## Technologies used:
+<details><summary> Technologies used:</summary>
 
-Language: Python3
-Third Party Modules: Pandas, Pprint, Spotipy
-Internal Modules: Matplotlib
-Database: sqlite3 (already installed with Python) 
+- Language: Python3
+- Third Party Modules: Pandas, Pprint, Spotipy
+- Internal Modules: Matplotlib
+- Database: sqlite3 (already installed with Python) 
+
+</details>
 
 
 Project File Organization: 
