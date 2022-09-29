@@ -17,6 +17,9 @@ Internal Modules: Matplotlib
 
 
 Project File Organization: 
+
+
+
 <img width="331" alt="Screen Shot 2022-09-29 at 1 59 27 PM" src="https://user-images.githubusercontent.com/67336130/193118393-1da5826a-324b-40b3-afea-c2f5cfa071a5.png">
 
 
