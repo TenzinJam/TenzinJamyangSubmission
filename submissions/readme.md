@@ -21,7 +21,7 @@ This project uses Spotify data and stores that data into a persistent database a
      - create VIEW tables to make querying quicker for future purposes
      - create graph plots using matplotlib so that the data makes more sense to our clientele or for better internal reviews
 
-- For in-depth description of the project, please refer to project repo's [main "readme" file](https://github.com/TenzinJam/TenzinJamyangSubmission/blob/main/README.md) 
+- For in-depth description of the project, please refer to project repo's [main "readme" file](https://github.com/TenzinJam/TenzinJamyangSubmission/blob/main/README.md).
 
 ## Technologies used:
 <details><summary>Click to Expand/Contract</summary>
