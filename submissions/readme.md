@@ -106,3 +106,7 @@ The entire project is encapsualted in the 'submissions' folder and the project i
 
 </details>
 
+<details><summary> Resources and Informative Articles Pertinent to Project </summary>
+   
+</details>
+
