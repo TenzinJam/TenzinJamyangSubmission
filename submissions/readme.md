@@ -4,10 +4,12 @@
 This project uses Spotify data and stores that data into a persistent database after following four important steps generally practiced in data engieering. These steps are:
 
 1. Ingestion:  
+   - 
 2. Tranformation:
 3. Storage:
 4. Visualization and Analysis: 
 
+- For in-depth description of the project, please refer to project repo's [main "readme" file](https://github.com/TenzinJam/TenzinJamyangSubmission/blob/main/README.md) 
 
 ## Technologies used:
 <details><summary>Click to Expand/Contract</summary>
