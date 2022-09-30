@@ -34,10 +34,12 @@ This project uses Spotify data and stores that data into a persistent database a
 
 ## Technologies used:
 <details><summary>Click to Expand/Contract</summary>
+   
 - Language: Python3
 - Third Party Modules: Pandas, Pprint, Spotipy
 - Internal Modules: Matplotlib
 - Database: sqlite3 (already installed with Python) 
+   
 </details>
 
 
@@ -57,7 +59,7 @@ this file contains all the script that takes care of       
     - Transformation:     
       - some parts of the data transformation happens during data retrieval from Apotify as we are removing the albums that are duplicated     
       - then we are transforming some values in the original api data to conform to the schema data type     
-      - then we introduce Pandas to create dataframes from the transformed data to rename columns to conform to the schema column name and drop tables that                   are not required in the schema    
+      - then we introduce Pandas to create dataframes from the transformed data to rename columns to conform to the schema column name and drop tables  that are not required in the schema    
     - Storage:      
       - By this point, we have data frames ready to be seeded into the database.      
       - We start by creating a database and then inserting the 4 tables into it.      
