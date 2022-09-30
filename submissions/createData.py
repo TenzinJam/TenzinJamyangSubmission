@@ -160,9 +160,7 @@ artistAlbums = getAlbums(artisturis)
 ## collecting all the album uris using list comprehension. Keep in mind that this is the uri and not the album id, so we will do something down the line when we need the album_id for the tracks table/data. 
 albumUris = [x['uri'] for x in artistAlbums]
 
-tracksInfo = getTracksAndFeatures(albumUris)
-albumTracks = tracksInfo[0]
-albumTrackFeatures = tracksInfo[1]
+(albumTracks, albumTrackFeatures) = getTracksAndFeatures(albumUris)
 
 # Passing in a True or False flag for the "printTable" argument to test the data frames by printing them out. It is defaulted at False value (refer to "prepareSeeding" method definition above)
 # Same mechanism for "checkNull" parameter. Passing in a True Value will print out the dataframe states regarding null values before and after cleaning. 

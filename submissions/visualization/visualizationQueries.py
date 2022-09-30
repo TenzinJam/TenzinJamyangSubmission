@@ -30,8 +30,20 @@ queries = [
         ORDER BY 1
         """, 
 
-    """SELECT popularity, AVG(valence) average_valence, artist_name
+    """SELECT AVG(valence) average_valence, popularity, artist_name
         FROM( SELECT ar.artist_name, ar.popularity, tr.valence
+                FROM artist ar
+                JOIN album al
+                ON ar.artist_id = al.artist_id
+                JOIN track t
+                ON al.album_id = t.album_id
+                JOIN track_feature tr
+                ON t.track_id = tr.track_id)
+        GROUP BY 3
+    """,
+
+    """SELECT AVG(valence) average_valence, followers, artist_name
+        FROM( SELECT ar.artist_name, ar.followers, tr.valence
                 FROM artist ar
                 JOIN album al
                 ON ar.artist_id = al.artist_id

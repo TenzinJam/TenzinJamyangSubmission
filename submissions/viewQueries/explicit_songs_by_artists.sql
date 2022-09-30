@@ -29,14 +29,15 @@
 --     ) AS table2
 --     ON table1.artist_id = table2.artist_id
 -- )
+-- DROP VIEW explicit_songs_by_artists;
 
 CREATE VIEW explicit_songs_by_artists
 AS
-SELECT ar.artist_id, ar.artist_name, COUNT(t.explicit) explicit_count
+SELECT ar.artist_id, ar.artist_name, SUM(t.explicit) explicit_count
      FROM artist ar 
      JOIN album al 
      ON ar.artist_id = al.artist_id
      JOIN track t 
      ON al.album_id = t.album_id
-     WHERE t.explicit = 1
      GROUP BY 1
+     ORDER BY 3
