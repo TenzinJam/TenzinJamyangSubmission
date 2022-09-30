@@ -114,15 +114,28 @@ this file contains all the script that takes care of       
 
 ## Resources and Informative Articles Pertinent to Project
 <details><summary> Click to Expand/Contract </summary>   
-   [📺 Python, pandas , sqlite3 tutorial](https://www.youtube.com/watch?v=YyUknBHcZB8)
+   
+   
+   [📺 Python, pandas, sqlite3 tutorial](https://www.youtube.com/watch?v=YyUknBHcZB8)
+   
    [📺 Relevant Pandas methods](https://www.youtube.com/watch?v=tRKeLrwfUgU)
+   
    [📜 Spotipy official documentation](https://spotipy.readthedocs.io/en/master/#spotipy.client.Spotify.search)
+   
    [📺 Spotify credentials setup video](https://www.youtube.com/watch?v=3RGm4jALukM)
+   
    [📜 Medium article on pprint](https://python.plainenglish.io/using-pprint-in-python-to-write-less-code-and-save-time-3c7329c98a7c)
+   
    [📜 Why there are dublicate albums on Spotify](https://community.spotify.com/t5/iOS-iPhone-iPad/Duplicates-of-the-same-albums/td-p/4542505#:~:text=It%20looks%20like%20the%20duplicate%20albums%20are%20appearing,some%20cases%20this%20is%20duplicating%20the%20album%20instead.)
+   
    [📜 Getting the correct "Scope" for Spotify API calls](https://developer.spotify.com/documentation/general/guides/authorization/scopes/#user-library-read)
+   
    [📜 What are Views and the Advantages Over Base Tables](https://en.wikipedia.org/wiki/View_(SQL))
+   
    [📜 Getting the correct "Scope" for Spotify API calls](https://developer.spotify.com/documentation/general/guides/authorization/scopes/#user-library-read)
+   
    [📜 Matplotlib Official Documentation](https://matplotlib.org/stable/tutorials/index)
+   
+   
 </details>
 
