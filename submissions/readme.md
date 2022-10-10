@@ -114,6 +114,7 @@ this file contains all the script that takes care of       
    
 ## Python Script in OOP structure:
 <details><summary> Click to Expand/Contract </summary>
+   
 ![OOP overhaul](https://user-images.githubusercontent.com/67336130/194919682-323f45e1-49bf-45d5-b86f-9b4a968d3362.jpg)
 
 </details>
