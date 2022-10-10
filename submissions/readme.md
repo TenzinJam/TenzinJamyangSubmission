@@ -111,6 +111,12 @@ this file contains all the script that takes care of       
   
    - This figure shows the tables in our spotify database and also specifies the datatypes of each columns. Please, note the relationship between the tables because these are what allows to combine different tables and produce new permanent and virtual tables for our easy use. 
    - Next to is the legend that lists the data types in SQLite and how they correspond to other data types prevalent in other RDBMs (Relational Database Management Systems). The data type on this schema will not match the ones in our "spotify.db" and thus this legend helps in translating that.       </details>
+   
+## Python Script in OOP structure:
+<details><summary> Click to Expand/Contract </summary>
+![OOP overhaul](https://user-images.githubusercontent.com/67336130/194919682-323f45e1-49bf-45d5-b86f-9b4a968d3362.jpg)
+
+</details>
 
 ## Resources and Informative Articles Pertinent to Project
 <details><summary> Click to Expand/Contract </summary>   
